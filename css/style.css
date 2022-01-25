@@ -2,12 +2,21 @@ body {
 background-color: #5895f0;
 }
 h1 {
+<<<<<<< HEAD
 font-size: 72px;
 background: -webkit-linear-gradient(silver, indigo, slateblue, blueviolet, blue);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 margin: 20px -150px;
 
+=======
+  font-size: 72px;
+  background: -webkit-linear-gradient(silver, indigo, slateblue, blueviolet, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px auto;
+  width:32%;
+>>>>>>> d7f07a623ff3b6651c8f433b4a0fb6862bcd3502
 }
 .container {
 position: absolute;
@@ -82,10 +91,16 @@ ellipse {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+<<<<<<< HEAD
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 20px;
+=======
+    justify-content: center;
+    padding: 200px;
+    margin-top: 100px;
+>>>>>>> d7f07a623ff3b6651c8f433b4a0fb6862bcd3502
 }
 .animation-links a{
     position: relative;
